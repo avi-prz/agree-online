@@ -1,4 +1,12 @@
 img.card-img-top {
-    width: 100px;
-    height: auto;
+    width: 150px;
+    height: 100%;
+}
+
+.card {
+    width: 160px;
+}
+
+.stage2 a {
+    cursor: pointer;
 }
