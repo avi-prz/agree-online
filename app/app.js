@@ -7,6 +7,9 @@ var app = angular.module("aolApp", ["ngRoute"]).config(function ($routeProvider)
     }).when("/stage2", {
         templateUrl: "app/stage2.html",
         controller: "mainCtrl"
+    }).when("/stage3", {
+        templateUrl: "app/stage3.html",
+        controller: "mainCtrl"
     }).otherwise({
         redirectTo: "/",
         controller: "mainCtrl"
